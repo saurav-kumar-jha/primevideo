@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.logo {
+    height: 60px;
+    width: 150px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.logo img {
+    height: 47px;
+    width: 150px;
+    margin-top: 10px;
+}
+.form-login {
+    height: 520px;
+    width: 360px;
+    color: #111111;
+    font-size: 13px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    left: 37%;
+    right: 37%;
+    margin-top: 15px;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 8px;
+}
+form {
+    height: 500px;
+    width: 348px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.form-h1 {
+    height: 38px;
+    width: 312px;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.form-name {
+    height: 52px;
+    width: 312px;
+    margin-top: 12px;
+}
+.label-name {
+    height: 21px;
+    width: 312px;
+}
+.mar {
+    margin-left: 5px;
+}
+.form-name input {
+    height: 31px;
+    width: 312px;
+    border: 2px solid rgb(143, 143, 143);
+    color: #0f1111;
+    font-size: 19px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.form-mob {
+    height: 57px;
+    width: 312px;
+    margin-top: 12px;
+}
+.form-mob input {
+    height: 31px;
+    width: 312px;
+    border: 2px solid rgb(143, 143, 143);
+    color: #0f1111;
+    font-size: 19px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.form-br {
+    height: 19px;
+    width: 312px;
+    font-family: sans-serif;
+}
+.form-br a {
+    text-decoration: none;
+    color: rgb(0, 46, 199);
+    font-size: 1.125em;
+}
+.form-br a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.form-pass {
+    height: 73px;
+    width: 312px;
+}
+.form-pass label {
+    height: 21px;
+    width: 312px;
+}
+.form-pass input {
+    height: 31px;
+    width: 312px;
+    border: 2px solid rgb(143, 143, 143);
+    color: #0f1111;
+    font-size: 19px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.fw {
+    font-weight: 600;
+}
+.form-pass p {
+    height: 15px;
+    width: 312px;
+    margin-top: 6px;
+}
+.form-veri {
+    height: 63px;
+    width: 312px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+.form-submitbtn {
+    height: 31px;
+    width: 312px;
+    margin-bottom: -30px;
+}
+.form-submitbtn button {
+    background-color: yellow;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: 100%;
+    height: 31px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+}
+.signin {
+    height: 61px;
+    width: 312px;
+    margin-top: -30px;
+    margin-left: 10px;
+    border-top: 2px solid rgb(190, 190, 190);
+}
+.signin span {
+    font-size: 17px;
+}
+.signin a {
+    font-size: 17px;
+    text-decoration: none;
+}
+footer {
+    height: 72px;
+    width: 100%;
+    margin-top: 26px !important;
+}
+.hr {
+    margin-left: 10%;
+    height: 1.3px;
+    background-color: gray;
+}
+.divider {
+    height: 64px;
+    margin-bottom: -18px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.text {
+    display: flex;
+    height: 16px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-top: -10px;
+    gap: 38px;
+}
+.a {
+    color: rgb(0, 130, 163);
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: -10px;
+    font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.item {
+    height: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width:700px) {
+    body{
+        height: 100%;
+        width: 700px;
+    }
+    main{
+       position: relative;
+       left: -10%;
+       /* transform: rotate(1deg); */
+    }
+    .form-login{
+        margin-left: 0px;
+    }
+    .text{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
